@@ -25,7 +25,7 @@ namespace dotnetcore_test.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return View("Hello");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
